@@ -1,0 +1,64 @@
+html {
+
+}
+
+/****Navigation***/
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: red;
+    border-bottom: 2px solid red;
+}
+/****End Navigation***/
+
+/****Home***/
+.home {
+    background: rgb(63, 62, 62);
+    min-height: 600px;
+    color: white;
+
+}
+
+.btn-start {
+    background: red;
+    color: white;
+}
+
+#home .welcome {
+    color: red;
+    display: block
+}
+/***End Home***/
+
+/***Start About***/
+
+.about-bg {
+    padding: 8rem 0;
+}
+
+#about .heading{
+    color: red;
+}
+/***End About***/
+
+
+/***Start Special***/
+.special {
+    padding: 8rem 0;
+    color: white;
+}
+.slide {
+    height: 400px;
+}
+.pic {
+    width: 100%;
+    object-fit: contain;
+}
+
+.special-day h4 {
+    color: red;
+}
+
+
+
+/***End Special***/
+
+
