@@ -1,6 +1,3 @@
-html {
-
-}
 
 /****Navigation***/
 .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
@@ -11,11 +8,26 @@ html {
 
 /****Home***/
 .home {
-    background: rgb(63, 62, 62);
-    min-height: 600px;
-    color: white;
 
+    min-height: 700px;
+    color: white;
+    position: relative;
+    background: url('../img/momo.jpeg');
+    background-size: cover;
 }
+.home-bg {
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(0,0,0,0.5);
+}
+
+.home-pic {
+    padding-top: 8rem;
+}
+
 
 .btn-start {
     background: red;
