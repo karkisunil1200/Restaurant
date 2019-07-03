@@ -69,6 +69,8 @@ font-size: 2.5rem;
 .special {
     padding: 8rem 0;
     color: white;
+    background:linear-gradient(rgba(0, 0, 0, 0.474),rgba(0, 0, 0, 0.318)),url('../img/cherries.jpeg');
+    background-size: cover;
 }
 
 .slide {
