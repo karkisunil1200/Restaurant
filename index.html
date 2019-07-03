@@ -16,6 +16,8 @@
       integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
       crossorigin="anonymous"
     />
+    <link href="https://fonts.googleapis.com/css?family=Cookie|Parisienne&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="css/style.css" />
     <title>Yummyfy</title>
   </head>
@@ -40,9 +42,7 @@
             <li class="nav-item">
               <a href="#about" class="nav-link">About</a>
             </li>
-            <li class="nav-item">
-              <a href="#authors" class="nav-link">Reservation</a>
-            </li>
+
             <li class="nav-item">
               <a href="./menuList.html" class="nav-link">Menu</a>
             </li>
@@ -118,7 +118,7 @@
     <section id="reservation" class="py-5 bg-dark text-white">
       <div class="container">
         <div class="reservation-heading text-center py-5">
-          <h2>Book a Table</h2>
+          <h2 class="heading">Book a Table</h2>
           <h3>Make a Reservation</h3>
         </div>
       </div>
@@ -222,14 +222,62 @@
         </div>
       </div>
     </section>
-    <!--End Contact-->
+
+
+    <!--Contact Form Start-->
+    <section id="contact" class="bg-light py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9">
+            <h3>Get In Touch</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae vitae quisquam
+              repellat porro quibusdam! Ratione officia nesciunt vitae magni corrupti!
+            </p>
+            <form>
+              <div class="input-group input-group-lg mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">
+                    <i class="fas fa-user"></i>
+                  </span>
+                </div>
+                <input type="text" class="form-control" placeholder="Name"></input>
+              </div>
+              <div class="input-group input-group-lg mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">
+                    <i class="fas fa-envelope"></i>
+                  </span>
+                </div>
+                <input type="email" class="form-control" placeholder="Email"></input>
+              </div>
+              <div class="input-group input-group-lg mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">
+                    <i class="fas fa-pencil-alt"></i>
+                  </span>
+                </div>
+                <textarea type="text" class="form-control" placeholder="Message" rows="5"></textarea>
+              </div>
+              <input type="submit" value="Submit" class="btn btn-primary btn-block btn-lg">
+            </form>
+          </div>
+          <div class="col-lg-3 align-self-center">
+            Google Maps Goes Here
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--End Contact Form-->
 
     <!--Footer-->
     <section id="footer" class="py-4">
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-center">
-            &copy;Copyright Yummyfy Restaurant newDate();
+            <p>&copy;Copyright Yummyfy Restaurant
+               <span id="year"></span>
+               </p>
           </div>
         </div>
       </div>

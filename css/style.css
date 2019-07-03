@@ -17,6 +17,7 @@ html {
     background: url('../img/momo.jpeg');
     background-size: cover;
 }
+
 .home-bg {
     position: absolute;
     top: 0; 
@@ -34,11 +35,15 @@ html {
 .btn-start {
     background: red;
     color: white;
+    font-size: 1rem;
 }
 
 #home .welcome {
     color: red;
-    display: block
+    display: block;
+    font-family: 'Parisienne', cursive;
+    font-size: 4rem;
+
 }
 /***End Home***/
 
@@ -48,11 +53,17 @@ html {
     padding: 8rem 0;
 }
 
-#about .heading{
+.heading{
     color: red;
+font-family: 'Parisienne', cursive;
+font-size: 2.5rem;
+
 }
 
 /***End About***/
+
+
+
 
 /***Start Special***/
 .special {

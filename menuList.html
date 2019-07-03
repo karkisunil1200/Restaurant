@@ -16,6 +16,10 @@
       integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
       crossorigin="anonymous"
     />
+    <link
+      href="https://fonts.googleapis.com/css?family=Cookie|Parisienne&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/menuList.css" />
     <title>Bootstrap Theme</title>
   </head>
@@ -37,12 +41,7 @@
             <li class="nav-item">
               <a href="./index.html" class="nav-link">Home</a>
             </li>
-            <li class="nav-item">
-              <a href="#about" class="nav-link">About</a>
-            </li>
-            <li class="nav-item">
-              <a href="#authors" class="nav-link">Reservation</a>
-            </li>
+
             <li class="nav-item">
               <a href="./menuList.html" class="nav-link active">Menu</a>
             </li>
@@ -73,7 +72,7 @@
     <!--Menu-->
     <section id="food-item" class="food-item">
       <div class="container">
-        <h1 class="text-center mb-5">Menu Items</h1>
+        <h1 class="text-center heading mb-5">Menu Items</h1>
         <nav>
           <div class="nav nav-tabs" id="nav-tab" role="tablist">
             <a
@@ -286,16 +285,47 @@
     </section>
     <!--End of Menu-->
 
-    <!--Recommendation-->
-
-    <!--End of Recommendation-->
+    <!--Contact Section-->
+    <section id="contact" class="bg-dark text-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 text-center ">
+            <div class="contact-heading">
+              <h3 class=" border-bottom py-4">About us</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ad molestiae laborum
+                at, voluptatem sit accusantium iusto optio esse officia.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="contact-heading">
+              <h3 class="border-bottom py-4">Opening Hours</h3>
+              <p class="mb-0">Mon-Thu: <span class="p-small"> 9:00am - 9:00pm</span></p>
+              <p class="mb-0">Fri-Sun:<span class="p-small"> 11:00am - 6:00pm</span></p>
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="contact-heading">
+              <h3 class="border-bottom py-4">Opening Hours</h3>
+              <p class="mb-0">Call us: <span class="p-small"> 000-000-0000</span></p>
+              <p class="mb-0">Mail us:<span class="p-small"> contact@gmail.com</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--End Contact-->
 
     <!--Footer-->
     <section id="footer" class="py-4">
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-center">
-            &copy;Copyright Yummyfy Restaurant newDate();
+            <p>
+              &copy;Copyright Yummyfy Restaurant
+              <span id="year"></span>
+            </p>
           </div>
         </div>
       </div>
