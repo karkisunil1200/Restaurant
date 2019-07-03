@@ -17,13 +17,13 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Bootstrap Theme</title>
+    <title>Yummyfy</title>
   </head>
 
   <body>
     <!-- START HERE -->
     <!--Navigation-->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top py-4" id="main-nav">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top py-3" id="main-nav">
       <div class="container">
         <a href="#home" class="navbar-brand">
           <img src="" width="50" height="50" alt="" />
@@ -38,19 +38,17 @@
               <a href="#home" class="nav-link active">Home</a>
             </li>
             <li class="nav-item">
-              <a href="#about" class="nav-link">Menu</a>
+              <a href="#about" class="nav-link">About</a>
             </li>
             <li class="nav-item">
               <a href="#authors" class="nav-link">Reservation</a>
             </li>
             <li class="nav-item">
-              <a href="#contact" class="nav-link">Pages</a>
+              <a href="./menu.html" class="nav-link">Menu</a>
             </li>
+
             <li class="nav-item">
-              <a href="#contact" class="nav-link">News</a>
-            </li>
-            <li class="nav-item">
-              <a href="#contact" class="nav-link">Contact</a>
+              <a href="#contact" class="nav-link ">Contact</a>
             </li>
           </ul>
         </div>
@@ -67,7 +65,9 @@
               <h1 class=" mt-5 pt-5 heading ">
                 <span class="welcome">Welcome to </span>Risoraere Italian Cuisine
               </h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, tempora!</p>
+              <p class="mb-5">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, tempora!
+              </p>
               <a href="#" class="btn btn-outline-secondary btn-lg px-5 btn-start">
                 RESERVE A TABLE
               </a>
@@ -84,6 +84,13 @@
         <div class="container">
           <div class="row">
             <div class="col-md-6 text-center">
+              <div class="enjoy bg-dark p-4">
+                <h3 class="text-white p-2">Some picture here</h3>
+                <img src="img/customer.jpeg" class="img-fluid" />
+              </div>
+            </div>
+
+            <div class="col-md-6 text-center py-4">
               <div class="about-heading">
                 <h4>
                   <span class="heading d-block">Discover</span>
@@ -101,14 +108,22 @@
                 </p>
               </div>
             </div>
-            <div class="col-md-6 text-center">
-              <h3>Some picture here</h3>
-            </div>
           </div>
         </div>
       </div>
     </section>
     <!--End About-->
+
+    <!--Reservation-->
+    <section id="reservation" class="py-5 bg-dark text-white">
+      <div class="container">
+        <div class="reservation-heading text-center py-5">
+          <h2>Book a Table</h2>
+          <h3>Make a Reservation</h3>
+        </div>
+      </div>
+    </section>
+    <!--Reservation End-->
 
     <!--Start Special-->
     <section id="special" class="special">
@@ -116,15 +131,15 @@
         <div class="row">
           <div class="col-md-6 p-0">
             <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item active slide" data-interval="100">
-                  <img src="./img/person4.jpg" class="d-block pic" alt="..." />
+              <div class="carousel-inner slide">
+                <div class="carousel-item active " data-interval="100">
+                  <img src="./img/food5.jpeg" class="d-block img-fluid" alt="..." />
                 </div>
                 <div class="carousel-item slide" data-interval="200">
-                  <img src="./img/person1.jpg" class="d-block img-fluid pic" alt="..." />
+                  <img src="./img/food2.jpeg" class="d-block img-fluid pic" alt="..." />
                 </div>
                 <div class="carousel-item slide">
-                  <img src="./img/person3.jpg" class="d-block img-fluid pic" alt="..." />
+                  <img src="./img/food3.jpeg" class="d-block img-fluid pic" alt="..." />
                 </div>
               </div>
               <a
@@ -148,7 +163,7 @@
             </div>
           </div>
           <div class="col-md-6 bg-dark m-0">
-            <div class="special-day m-5 text-left">
+            <div class="special-day m-5 text-left second">
               <h4 class="heading">
                 For your special Day
               </h4>
@@ -177,6 +192,50 @@
     </section>
     <!--Location End-->
 
+    <!--Contact Section-->
+    <section id="contact" class="bg-dark text-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 text-center ">
+            <div class="contact-heading">
+              <h3 class=" border-bottom py-4">About us</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ad molestiae laborum
+                at, voluptatem sit accusantium iusto optio esse officia.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="contact-heading">
+              <h3 class="border-bottom py-4">Opening Hours</h3>
+              <p class="mb-0">Mon-Thu: <span class="p-small"> 9:00am - 9:00pm</span></p>
+              <p class="mb-0">Fri-Sun:<span class="p-small"> 11:00am - 6:00pm</span></p>
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="contact-heading">
+              <h3 class="border-bottom py-4">Opening Hours</h3>
+              <p class="mb-0">Call us: <span class="p-small"> 000-000-0000</span></p>
+              <p class="mb-0">Mail us:<span class="p-small"> contact@gmail.com</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--End Contact-->
+
+    <!--Footer-->
+    <section id="footer" class="py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            &copy;Copyright Yummyfy Restaurant newDate();
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Footer End-->
+
     <script
       src="http://code.jquery.com/jquery-3.3.1.min.js"
       integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
@@ -196,6 +255,18 @@
     <script>
       // Get the current year for the copyright
       $('#year').text(new Date().getFullYear());
+    </script>
+
+    <script>
+      $('a.nav-link').click(function() {
+        $('a.nav-link').remove('color', 'red');
+        $('this.nav-link').addClass('active');
+      });
+
+      //       $("#Chart3").click(function(){
+      //      $('li.active').removeClass('active');
+      //     $('this').addClass('active');
+      // });
     </script>
   </body>
 </html>
