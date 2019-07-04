@@ -6,6 +6,10 @@ html {
     color: red;
     border-bottom: 2px solid red;
 }
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.959);
+    padding: 0 1.2rem;
+}
 /****End Navigation***/
 
 /****Home***/

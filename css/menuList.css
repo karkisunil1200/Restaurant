@@ -2,9 +2,15 @@ html {
   scroll-behavior: smooth;
 }
 /****Navigation***/
+
 .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
     color: red;
     border-bottom: 2px solid red;
+
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.959);
+    padding: 0 1.2rem;
 }
 /****End Navigation***/
 
